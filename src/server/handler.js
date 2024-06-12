@@ -13,7 +13,7 @@ import {
   addDoc,
 } from "firebase/firestore";
 
-// Firebase configuration
+// Firebase configuration -> firebase -> home -> add app
 const firebaseConfig = {
   apiKey: "AIzaSyBlMZeBuf_Ocs6JAy2GxeG8F-ofGWWzeac",
   authDomain: "affable-tangent-425912-a5.firebaseapp.com",
@@ -111,7 +111,6 @@ export const loginGoogle = async (request, h) => {
     const userData = {
       uid: userCredential.user.uid,
       email: userCredential.user.email,
-      displayName: userCredential.user.displayName,
     };
 
     return h
