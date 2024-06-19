@@ -3,8 +3,8 @@ import routes from "./routes.js";
 
 const init = async () => {
   const server = Hapi.server({
-    port: 8000,
-    host: "localhost",
+    port: process.env.PORT || 8000,
+    host: "0.0.0.0",
   });
 
   server.route(routes);

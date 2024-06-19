@@ -15,9 +15,9 @@ import {
 
 // Firebase configuration -> firebase -> home -> add app
 const firebaseConfig = {
-  apiKey: "AIzaSyBlMZeBuf_Ocs6JAy2GxeG8F-ofGWWzeac",
-  authDomain: "affable-tangent-425912-a5.firebaseapp.com",
-  projectId: "affable-tangent-425912-a5",
+  apiKey: "AIzaSyBLhNvmj5sllTSGHhx8e3PTZV908gtIzq0",
+  authDomain: "fingerspell-422914.firebaseapp.com",
+  projectId: "fingerspell-422914",
 };
 
 // Initialize Firebase only once
